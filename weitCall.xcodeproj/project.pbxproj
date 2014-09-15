@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DF595B19AA6D5B00759457 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF595A19AA6D5B00759457 /* AudioToolbox.framework */; };
+		04DF595D19AA6F3400759457 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF595C19AA6F3300759457 /* AVFoundation.framework */; };
+		04DF595F19AA6F3F00759457 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DF595E19AA6F3F00759457 /* CoreTelephony.framework */; };
+		04DF596519AA6F9300759457 /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF596319AA6F9300759457 /* RunViewController.m */; };
+		04DF596619AA6F9300759457 /* RunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DF596419AA6F9300759457 /* RunViewController.xib */; };
+		04FD035C19A95CAB00C8FE78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD035B19A95CAB00C8FE78 /* Foundation.framework */; };
+		04FD035E19A95CAB00C8FE78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD035D19A95CAB00C8FE78 /* CoreGraphics.framework */; };
+		04FD036019A95CAB00C8FE78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD035F19A95CAB00C8FE78 /* UIKit.framework */; };
+		04FD036619A95CAB00C8FE78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FD036419A95CAB00C8FE78 /* InfoPlist.strings */; };
+		04FD036819A95CAB00C8FE78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD036719A95CAB00C8FE78 /* main.m */; };
+		04FD036C19A95CAB00C8FE78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD036B19A95CAB00C8FE78 /* AppDelegate.m */; };
+		04FD036E19A95CAB00C8FE78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FD036D19A95CAB00C8FE78 /* Images.xcassets */; };
+		04FD037519A95CAB00C8FE78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD037419A95CAB00C8FE78 /* XCTest.framework */; };
+		04FD037619A95CAB00C8FE78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD035B19A95CAB00C8FE78 /* Foundation.framework */; };
+		04FD037719A95CAB00C8FE78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD035F19A95CAB00C8FE78 /* UIKit.framework */; };
+		04FD037F19A95CAB00C8FE78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FD037D19A95CAB00C8FE78 /* InfoPlist.strings */; };
+		04FD038119A95CAB00C8FE78 /* weitCallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD038019A95CAB00C8FE78 /* weitCallTests.m */; };
+		04FD038E19A95CFD00C8FE78 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD038C19A95CFD00C8FE78 /* HomeViewController.m */; };
+		04FD038F19A95CFD00C8FE78 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FD038D19A95CFD00C8FE78 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FD037819A95CAB00C8FE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FD035019A95CAB00C8FE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FD035719A95CAB00C8FE78;
+			remoteInfo = weitCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DF595A19AA6D5B00759457 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04DF595C19AA6F3300759457 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04DF595E19AA6F3F00759457 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04DF596219AA6F9300759457 /* RunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunViewController.h; path = ViewControllers/RunViewController/RunViewController.h; sourceTree = "<group>"; };
+		04DF596319AA6F9300759457 /* RunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunViewController.m; path = ViewControllers/RunViewController/RunViewController.m; sourceTree = "<group>"; };
+		04DF596419AA6F9300759457 /* RunViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RunViewController.xib; path = ViewControllers/RunViewController/RunViewController.xib; sourceTree = "<group>"; };
+		04FD035819A95CAB00C8FE78 /* weitCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weitCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD035B19A95CAB00C8FE78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04FD035D19A95CAB00C8FE78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04FD035F19A95CAB00C8FE78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04FD036319A95CAB00C8FE78 /* weitCall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weitCall-Info.plist"; sourceTree = "<group>"; };
+		04FD036519A95CAB00C8FE78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FD036719A95CAB00C8FE78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FD036919A95CAB00C8FE78 /* weitCall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weitCall-Prefix.pch"; sourceTree = "<group>"; };
+		04FD036A19A95CAB00C8FE78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FD036B19A95CAB00C8FE78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FD036D19A95CAB00C8FE78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04FD037319A95CAB00C8FE78 /* weitCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weitCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FD037419A95CAB00C8FE78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04FD037C19A95CAB00C8FE78 /* weitCallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weitCallTests-Info.plist"; sourceTree = "<group>"; };
+		04FD037E19A95CAB00C8FE78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04FD038019A95CAB00C8FE78 /* weitCallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weitCallTests.m; sourceTree = "<group>"; };
+		04FD038B19A95CFD00C8FE78 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		04FD038C19A95CFD00C8FE78 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		04FD038D19A95CFD00C8FE78 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FD035519A95CAB00C8FE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DF595F19AA6F3F00759457 /* CoreTelephony.framework in Frameworks */,
+				04DF595D19AA6F3400759457 /* AVFoundation.framework in Frameworks */,
+				04DF595B19AA6D5B00759457 /* AudioToolbox.framework in Frameworks */,
+				04FD035E19A95CAB00C8FE78 /* CoreGraphics.framework in Frameworks */,
+				04FD036019A95CAB00C8FE78 /* UIKit.framework in Frameworks */,
+				04FD035C19A95CAB00C8FE78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD037019A95CAB00C8FE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD037519A95CAB00C8FE78 /* XCTest.framework in Frameworks */,
+				04FD037719A95CAB00C8FE78 /* UIKit.framework in Frameworks */,
+				04FD037619A95CAB00C8FE78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DF596019AA6F4B00759457 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04FD038B19A95CFD00C8FE78 /* HomeViewController.h */,
+				04FD038C19A95CFD00C8FE78 /* HomeViewController.m */,
+				04FD038D19A95CFD00C8FE78 /* HomeViewController.xib */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		04DF596119AA6F6500759457 /* RunViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04DF596219AA6F9300759457 /* RunViewController.h */,
+				04DF596319AA6F9300759457 /* RunViewController.m */,
+				04DF596419AA6F9300759457 /* RunViewController.xib */,
+			);
+			name = RunViewController;
+			sourceTree = "<group>";
+		};
+		04FD034F19A95CAB00C8FE78 = {
+			isa = PBXGroup;
+			children = (
+				04FD036119A95CAB00C8FE78 /* weitCall */,
+				04FD037A19A95CAB00C8FE78 /* weitCallTests */,
+				04FD035A19A95CAB00C8FE78 /* Frameworks */,
+				04FD035919A95CAB00C8FE78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FD035919A95CAB00C8FE78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FD035819A95CAB00C8FE78 /* weitCall.app */,
+				04FD037319A95CAB00C8FE78 /* weitCallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FD035A19A95CAB00C8FE78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04DF595E19AA6F3F00759457 /* CoreTelephony.framework */,
+				04DF595C19AA6F3300759457 /* AVFoundation.framework */,
+				04DF595A19AA6D5B00759457 /* AudioToolbox.framework */,
+				04FD035B19A95CAB00C8FE78 /* Foundation.framework */,
+				04FD035D19A95CAB00C8FE78 /* CoreGraphics.framework */,
+				04FD035F19A95CAB00C8FE78 /* UIKit.framework */,
+				04FD037419A95CAB00C8FE78 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FD036119A95CAB00C8FE78 /* weitCall */ = {
+			isa = PBXGroup;
+			children = (
+				04FD038A19A95CB500C8FE78 /* ViewControllers */,
+				04FD036A19A95CAB00C8FE78 /* AppDelegate.h */,
+				04FD036B19A95CAB00C8FE78 /* AppDelegate.m */,
+				04FD036D19A95CAB00C8FE78 /* Images.xcassets */,
+				04FD036219A95CAB00C8FE78 /* Supporting Files */,
+			);
+			path = weitCall;
+			sourceTree = "<group>";
+		};
+		04FD036219A95CAB00C8FE78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FD036319A95CAB00C8FE78 /* weitCall-Info.plist */,
+				04FD036419A95CAB00C8FE78 /* InfoPlist.strings */,
+				04FD036719A95CAB00C8FE78 /* main.m */,
+				04FD036919A95CAB00C8FE78 /* weitCall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FD037A19A95CAB00C8FE78 /* weitCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FD038019A95CAB00C8FE78 /* weitCallTests.m */,
+				04FD037B19A95CAB00C8FE78 /* Supporting Files */,
+			);
+			path = weitCallTests;
+			sourceTree = "<group>";
+		};
+		04FD037B19A95CAB00C8FE78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FD037C19A95CAB00C8FE78 /* weitCallTests-Info.plist */,
+				04FD037D19A95CAB00C8FE78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FD038A19A95CB500C8FE78 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DF596119AA6F6500759457 /* RunViewController */,
+				04DF596019AA6F4B00759457 /* HomeViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FD035719A95CAB00C8FE78 /* weitCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD038419A95CAB00C8FE78 /* Build configuration list for PBXNativeTarget "weitCall" */;
+			buildPhases = (
+				04FD035419A95CAB00C8FE78 /* Sources */,
+				04FD035519A95CAB00C8FE78 /* Frameworks */,
+				04FD035619A95CAB00C8FE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weitCall;
+			productName = weitCall;
+			productReference = 04FD035819A95CAB00C8FE78 /* weitCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FD037219A95CAB00C8FE78 /* weitCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FD038719A95CAB00C8FE78 /* Build configuration list for PBXNativeTarget "weitCallTests" */;
+			buildPhases = (
+				04FD036F19A95CAB00C8FE78 /* Sources */,
+				04FD037019A95CAB00C8FE78 /* Frameworks */,
+				04FD037119A95CAB00C8FE78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FD037919A95CAB00C8FE78 /* PBXTargetDependency */,
+			);
+			name = weitCallTests;
+			productName = weitCallTests;
+			productReference = 04FD037319A95CAB00C8FE78 /* weitCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FD035019A95CAB00C8FE78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04FD037219A95CAB00C8FE78 = {
+						TestTargetID = 04FD035719A95CAB00C8FE78;
+					};
+				};
+			};
+			buildConfigurationList = 04FD035319A95CAB00C8FE78 /* Build configuration list for PBXProject "weitCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04FD034F19A95CAB00C8FE78;
+			productRefGroup = 04FD035919A95CAB00C8FE78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FD035719A95CAB00C8FE78 /* weitCall */,
+				04FD037219A95CAB00C8FE78 /* weitCallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FD035619A95CAB00C8FE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD036619A95CAB00C8FE78 /* InfoPlist.strings in Resources */,
+				04FD036E19A95CAB00C8FE78 /* Images.xcassets in Resources */,
+				04DF596619AA6F9300759457 /* RunViewController.xib in Resources */,
+				04FD038F19A95CFD00C8FE78 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD037119A95CAB00C8FE78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD037F19A95CAB00C8FE78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FD035419A95CAB00C8FE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD036C19A95CAB00C8FE78 /* AppDelegate.m in Sources */,
+				04FD036819A95CAB00C8FE78 /* main.m in Sources */,
+				04DF596519AA6F9300759457 /* RunViewController.m in Sources */,
+				04FD038E19A95CFD00C8FE78 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FD036F19A95CAB00C8FE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FD038119A95CAB00C8FE78 /* weitCallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FD037919A95CAB00C8FE78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FD035719A95CAB00C8FE78 /* weitCall */;
+			targetProxy = 04FD037819A95CAB00C8FE78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FD036419A95CAB00C8FE78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FD036519A95CAB00C8FE78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04FD037D19A95CAB00C8FE78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FD037E19A95CAB00C8FE78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FD038219A95CAB00C8FE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FD038319A95CAB00C8FE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FD038519A95CAB00C8FE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weitCall/weitCall-Prefix.pch";
+				INFOPLIST_FILE = "weitCall/weitCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04FD038619A95CAB00C8FE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weitCall/weitCall-Prefix.pch";
+				INFOPLIST_FILE = "weitCall/weitCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04FD038819A95CAB00C8FE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weitCall.app/weitCall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weitCall/weitCall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "weitCallTests/weitCallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04FD038919A95CAB00C8FE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weitCall.app/weitCall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weitCall/weitCall-Prefix.pch";
+				INFOPLIST_FILE = "weitCallTests/weitCallTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FD035319A95CAB00C8FE78 /* Build configuration list for PBXProject "weitCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD038219A95CAB00C8FE78 /* Debug */,
+				04FD038319A95CAB00C8FE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FD038419A95CAB00C8FE78 /* Build configuration list for PBXNativeTarget "weitCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD038519A95CAB00C8FE78 /* Debug */,
+				04FD038619A95CAB00C8FE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FD038719A95CAB00C8FE78 /* Build configuration list for PBXNativeTarget "weitCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FD038819A95CAB00C8FE78 /* Debug */,
+				04FD038919A95CAB00C8FE78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FD035019A95CAB00C8FE78 /* Project object */;
+}
